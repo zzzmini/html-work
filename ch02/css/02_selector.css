@@ -1,0 +1,12 @@
+p {
+  font-size: 20px;
+}
+#title {
+  color: tomato;
+}
+.luck {
+  color: purple;
+}
+* {
+  margin: 5px;
+}

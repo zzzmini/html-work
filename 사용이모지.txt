@@ -1,0 +1,15 @@
+02_basic_selector      🔮
+03_compound_selector   ⚔️
+04_combinator          ☕
+06_nth_child           🎧 🥇
+07_hover_active        ♡
+08_checked             🏖️
+09_pseudo_element      🔥
+10_specificity         ⚔️
+12_box_model           🎁
+13_box_sizing          📦
+14_margin_collapse     😀 😎
+15_margin_auto         🙋
+16_border_shadow       ⚔️ ❤️ ·
+17_inline_block        🎉 ▶
+practice               ⚔️ · ▶
