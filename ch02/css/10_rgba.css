@@ -1,0 +1,15 @@
+.room {
+  background: midnightblue;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.g1 {
+  color: rgba(255, 255, 255, 1);
+}
+.g2 {
+  color: rgba(255, 255, 255, 0.5);
+}
+.g3 {
+  color: rgba(255, 255, 255, 0.15);
+}

@@ -1,0 +1,20 @@
+.btn {
+  font-size: 16px;
+  background: white;
+  padding: 10px 20px;
+  border: 2px solid #555;
+}
+
+.btn.primary {
+  /* btn 이면서 primary */
+  background: royalblue;
+  color: white;
+  border-color: royalblue;
+}
+
+a.btn {
+  color: #555;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+}

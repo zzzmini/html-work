@@ -1,0 +1,14 @@
+input::placeholder {
+  color: #bbb;
+  font-style: italic;
+}
+.hot::after {
+  /* 글자 뒤에 가짜 요소 추가 */
+  content: "🔥HOT";
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  margin-left: 6px;
+  border-radius: 4px;
+}
