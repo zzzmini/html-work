@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            width: 1000px;
+            height: 700px;
+        }
+        .header {
+            background-color: navy;
+            width: 100%;
+            height: 80px;
+        }
+        .nav {
+            background-color: skyblue;
+            width: 100%;
+            height: 40px;
+        }
+        .body-wrap {
+            width: 100%;
+            height: 480px;
+            display: flex;
+        }
+        .body-wrap .left {
+            width: 20%;
+            background-color: lightgreen;
+        }
+        .body-wrap .main {
+            width: 60%;
+        }
+        
+        .body-wrap .right {
+            width: 20%;
+            background-color: pink;
+        }
+        .body-wrap .main .main-top {
+            height: 300px;
+            background: white;
+        }
+        .body-wrap .main .main-bottom {
+            height: 180px;
+            background: lightgray;
+        }
+        .footer {
+            width: 100%;
+            height: 100px;
+            background: gray;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="nav"></div>
+        <div class="body-wrap">
+            <div class="left"></div>
+            <div class="main">
+                <div class="main-top"></div>
+                <div class="main-bottom"></div>
+            </div>
+            <div class="right"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
