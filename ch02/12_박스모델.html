@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .outer {
+        background-color: lightgray;
+      }
+      .box {
+        width: 200px;
+        background-color: gold;
+        border: 10px solid tomato;
+        margin: 40px;
+        text-align: center;
+      }
+      .content {
+        color: white;
+      }
+      .a,
+      .b {
+        width: 200px;
+        background-color: gold;
+        border: 5px solid tomato;
+        margin-bottom: 10px;
+        padding: 20px;
+      }
+      .a {
+        box-sizing: content-box;
+        margin-bottom: 50px;
+      }
+      .b {
+        box-sizing: border-box;
+        margin-top: 70px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        border-radius: 20%;
+        box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+      }
+      .x {
+        background: gold; 
+        width: 200px; 
+        margin: 0 auto;}
+        /* div태그(일반적인 블럭) 요소를 정 가운데 
+        위치시키는 방법 : margin 0, auto */
+    .y {
+        background-color: skyblue;
+        margin: 0 auto;
+    }
+    .z {
+        /* 인라인 요소를 블럭요소로 변경 */
+        display: block;
+        background: tomato;
+        /* 인라인태그는 너비를 못 갖는다.
+        img, span
+         */
+        width: 200px; 
+        margin: 0 auto;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="box">
+        <span class="content"> 🎁 선물 </span>
+      </div>
+    </div>
+    <!-- border-box 속성 : 테두리와 패딩의 영향을 받지 않고
+     박스의 크기를 일정하게 만들기 위해 주는 속성 -->
+    <div class="a">A 영역</div>
+    <div class="b">B 영역</div>
+    <!-- 가운데 정렬 -->
+     <div class="x">X</div>
+     <div class="y">Y</div>
+     <span class="z">Z</span>
+  </body>
+</html>
