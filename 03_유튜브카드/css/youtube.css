@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 720px;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+}
+.thumbnail {
+  background-image: url("../image/thumbnail.jpg");
+  width: 260px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  /* div 태그 안에 있는 span 얘들을 정렬하는 방법 */
+  display: flex;
+  /* 주축의 가로정렬 - 주축 : 기본(가로_) */
+  justify-content: end;
+  /* 주축의 세로정렬  */
+  align-items: end;
+  border-radius: 10px;
+}
+.thumbnail .time {
+  color: white;
+  margin: 5px;
+  background-color: black;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin: 0;
+}
+.info {
+  margin: 5px 0;
+  font-size: 13px;
+  color: gray;
+}
+
+.channel-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.channel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: gray;
+}
+
+.desc {
+  font-size: 13px;
+  color: gray;
+}
+
+.footer {
+  font-size: 12px;
+  color: gray;
+  text-align: right;
+}
