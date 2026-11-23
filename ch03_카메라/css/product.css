@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 540px;
+  padding: 15px;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.product-img {
+  width: 30%;
+  /* border: 1px solid blue; */
+  /* 이미지를 백그라운드이미지로 넣는 방법 */
+  background-image: url("../image/camera.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content .title {
+  margin: 0;
+  font-weight: normal;
+}
+.content .info {
+  margin: 5px 0;
+  font-size: 13px;
+  color: gray;
+}
+.content .price {
+  margin: 0;
+  font-weight: bold;
+}
+.content .like {
+  color: gray;
+  text-align: right;
+}
