@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{margin: 0;} 
+        *, *::after, *::before {box-sizing: border-box;}
+        .cart-backgroud {
+            width: 100%;
+            background-color: lightsteelblue;
+            padding: 30px;
+        }
+        .cart-table {
+            width: 100%;
+            max-width: 700px;
+            margin: auto;
+            background-color: white;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+        .cart-table td, .cart-table th {
+            padding: 15px;
+            border-bottom: 1px solid gray;
+        }
+        .btn {
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .btn-coral {
+            background-color: coral;
+            color: white;
+        }
+        .btn-coral:hover {
+            background-color: chocolate;
+        }
+        .btn-coral:focus {
+            background-color: gray;
+        }
+        .btn-coral:active{
+            background-color: brown;
+        }
+        .link {
+            text-decoration: none;
+            color: violet;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cart-backgroud">
+        <h3>Your shopping Cart</h3>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Item</th>
+                    <th>Amount</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="./image/item1.png" alt="상품" width="50px"></td>
+                    <td>스니커즈</td>
+                    <td>1</td>
+                    <td>7000</td>
+                    <td>7000</td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="text-align: right;">총가격 : 7000</td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="btn btn-coral">구매하기</button>
+        <input type="text">
+        <a href="#" class="link">링크</a>
+    </div>
+</body>
+</html>
